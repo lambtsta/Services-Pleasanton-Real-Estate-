@@ -86,6 +86,9 @@ body{
     align-items: center;
     text-align: center;
 }
+.contact:hover{
+    background-color: rgb(42, 39, 39);
+}
 .contact a{
     color: var(--text-color);
     font-size: 2rem;

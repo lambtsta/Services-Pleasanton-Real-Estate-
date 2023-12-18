@@ -440,7 +440,6 @@ body{
     line-height: 3rem; 
     font-weight: 600;
     font-family: 'Lato', sans-serif;
-    opacity: 0.8; 
     padding-bottom: 4vw;
 }
 .slide-text ul{
@@ -448,15 +447,13 @@ body{
     line-height: 2rem; 
     font-weight: 600;
     font-family: 'Lato', sans-serif;
-    opacity: 0.8; 
     padding-bottom: 4vw;
 }
 .slide-text ul li{
     font-size: 2rem; 
     line-height: 2rem; 
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
-    opacity: 0.8; 
+    font-family: 'Lato', sans-serif; 
     padding-bottom: 4vw;
 
 }

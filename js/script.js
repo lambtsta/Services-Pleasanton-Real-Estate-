@@ -103,3 +103,15 @@ $('.overlay').addClass('overlay-blue');
     });
 })(jQuery);
 $('.lp-overlay').addClass('overlay-blue');
+
+/*Scroll animation*/
+ScrollReveal({
+    distance: '80px',
+    duration: 1800,
+    delay: 100,
+    reset: false
+});
+ScrollReveal().reveal('.desktop, .selling-process-img, .buying-process-img' , { origin: 'left' });
+ScrollReveal().reveal('.ipad, .selling-process-accordion, .buying-process-accordion' , { origin: 'right' });
+ScrollReveal().reveal('.service-content-title, .work-with-us-title, .cm-plan-title', { origin: 'top' });
+ScrollReveal().reveal('.search-bar, .book-appointment, .dg-box, .cm-plan-box, .market-title, .market-logo, .market-exposure-box, .work-with-us-text, .work-with-us-btn', { origin: 'bottom' });
